@@ -1,4 +1,5 @@
 import React from 'react';
+import firebase from 'firebase';
 import {Scene, Router, Actions, Stack} from 'react-native-router-flux';
 import LoginForm from './components/LoginForm';
 import TeamList from './components/TeamList';
