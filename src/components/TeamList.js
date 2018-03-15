@@ -4,7 +4,7 @@ import axios from 'axios';
 import TeamDetail from './TeamDetail';
 
 class TeamList extends Component {
-  state = { teams: [] };
+  state = {teams: []};
 
   componentWillMount() {
     axios.get('https://api.myjson.com/bins/19mm07')
